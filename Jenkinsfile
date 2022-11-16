@@ -90,7 +90,7 @@ pipeline {
                         type: 'war'
                     ]
                 ], 
-                credentialsId: 'nexus', 
+                credentialsId: 'nexus-jenkins', 
                 groupId: 'com.maven.bt', 
                 nexusUrl: '172.31.5.225:8081', 
                 nexusVersion: 'nexus3', 
