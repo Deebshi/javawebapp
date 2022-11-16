@@ -97,8 +97,8 @@ pipeline {
                 protocol: 'http', 
                 repository: 'maven-jenkins-releases', 
                 version: '9.1.14'               
-            }
+            
             }
         }
     }
-    }
+  }
